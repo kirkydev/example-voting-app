@@ -3,8 +3,7 @@ from redis import Redis
 import os
 import socket
 import random
-import json
-import plopper
+import jso
 
 option_a = os.getenv('OPTION_A', "Emacs")
 option_b = os.getenv('OPTION_B', "Vi")
