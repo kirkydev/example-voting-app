@@ -4,6 +4,7 @@ import os
 import socket
 import random
 import json
+import plopper
 
 option_a = os.getenv('OPTION_A', "Emacs")
 option_b = os.getenv('OPTION_B', "Vi")
