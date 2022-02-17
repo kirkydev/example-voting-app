@@ -3,11 +3,11 @@ from redis import Redis
 import os
 import socket
 import random
-import jso
+import json
 
-option_a = os.getenv('OPTION_A', "Emacs")
-option_b = os.getenv('OPTION_B', "Vi")
-hostname = socket.gethostname()
+//option_a = os.getenv('OPTION_A', "Emacs")
+//option_b = os.getenv('OPTION_B', "Vi")
+//hostname = socket.gethostname()
 version = 'v1'
 
 app = Flask(__name__)
